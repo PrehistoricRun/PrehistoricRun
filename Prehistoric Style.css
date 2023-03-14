@@ -1,0 +1,71 @@
+body,h1 {font-family: "Raleway", cursive}
+
+body, html {height: 100%}
+
+.bgimg {
+  background-image: url("Background.jpg");
+  min-height: 120%;
+  background-position: center;
+  background-size: cover;
+}
+.stimg {
+	background-image : url("star.png");
+	background-repeat: repeat;
+	min-height: 200%;
+	background-position: center;
+	background-size: cover;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.Logo{
+
+width:125px;
+position: absolute;
+top: 25px;
+left: 10px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0px;
+	color: #00ff00;
+}
+
+text {
+	text-align: center;
+	color: #ffff00;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  position: absolute;
+  top: 150px;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+h2 {
+	position: center;
+	top: 100px;
+}
